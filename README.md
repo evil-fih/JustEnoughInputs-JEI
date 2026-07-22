@@ -91,7 +91,7 @@ Because JEI listens directly to browser input events, it cannot run inside the n
 Example:
 
 ```
-https://yourusername.github.io/JustEnoughInputs/just-enough-inputs.js
+https://evil-fih.github.io/JustEnoughInputs/just-enough-inputs.js
 ```
 
 ---
