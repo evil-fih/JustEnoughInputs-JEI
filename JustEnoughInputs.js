@@ -1,21 +1,25 @@
-/**
- * Just Enough Inputs (JEI)
- * Version: 1.0.0
- * Author: evil-fih on Github
- *
- * Adds missing keyboard, mouse, and browser input
- * blocks that vanilla Scratch and TurboWarp don't provide.
- *
- * Features:
- * - Left/Right Shift, Ctrl, Alt, Meta
- * - Mouse wheel
- * - Mouse movement (dx/dy)
- * - Right & middle mouse buttons
- * - Last key pressed
- */
+/*
+* JustEnoughInputs (JEI)
+* This is my first extension ever for Turbowarp!
+* Hope you enjoy.
+*
+* JEI adds some reporters for detecting special keys like LeftShift or RightCtrl
+* JEI also adds mouse button, movement and scroll detection
+* I hope you can create some cool games with this :>
+*
+* Created by evil-fih (Github) or darcknd (Scratch)
+* v1.0 of JEI
+*
+* Made with help from ChatGPT (it explained some key detecting mechanism and how to differentiate between keycode and key)
+* I have never used JS before (except for some websites I made)
+* Will hopefully be on Turbowarp Extensions Gallery soon
+*
+* I tested everything and made some cool stuff with it
+*
+*/
 
 if (!Scratch.extensions.unsandboxed) {
-    throw new Error("JustEnoughInputs must be run unsandboxed.");
+    throw new Error("PLEASE UNSANDBOXED PLEASEEE");
 }
 
 class JustEnoughInputs {
