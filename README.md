@@ -1,14 +1,12 @@
 # JustEnoughInputs-JEI
-JustEnoughInputs is a Turbowarp extension that adds useful reporters for detecting special keys like LeftShift.
 
----
+JustEnoughInputs is a TurboWarp extension that adds useful reporters for detecting special keys like Left Shift.
 
-# Features
+## Features
 
-## Keyboard
+### Keyboard
 
-### Modifier and Function Keys
-
+**Modifier and Function Keys**
 - Left Shift
 - Right Shift
 - Left Control
@@ -19,56 +17,56 @@ JustEnoughInputs is a Turbowarp extension that adds useful reporters for detecti
 - Right Meta
 - Function Keys (F1, F2, etc.)
 
-### Misc. Keyboard Data
-
+**Misc. Keyboard Data**
 - Detect currently pressed keys using keyboard codes
 - Get the last key pressed
 - Get the physical key code of the last key pressed
 
----
+### Mouse
 
-## Mouse
+**Mouse Buttons**
+JEI can detect:
+- Left Mouse Button
+- Right Mouse Button
+- Middle Mouse Button
 
-### Mouse Buttons
+**Misc. Mouse Data**
+Includes things like:
+- Change in mouse movement
+- Scroll wheel movement
+- Last mouse button pressed
 
-JEI can detect Left, Right and Middle Mouse Button
+## What is JEI used for and why did I suffer through a JS course to do this?
 
-### Misc. Mouse Data
+Both Scratch and TurboWarp don't have any "special key detection" blocks, so I made an extension for it.
 
-Includes stuff like change in mouse movement, scroll wheel movement and last mouse button
-
----
-
-# What is JEI used for and why did I suffer through a JS course to do this?
-
-Both Scratch and Turbowarp doesn't have any "special keys detection" block so I just made an extension for this.
-
-You can make stuff like custom keybinds for a game or a fully functional computer (NOT TESTED YET)
+You can make stuff like:
+- Custom keybinds for games
+- A fully functional computer (NOT TESTED YET)
 
 Also because I was bored.
 
----
+## Requirements
 
-# Requirements
+JEI needs to be run **UNSANDBOXED!!**
 
-JEI needs to be run **UNSANDBOXED!!** Unsandboxed allows the extension to listen to browser stuff. Without unsandboxed mode the extension will break.
+Unsandboxed mode allows the extension to listen to browser input events. So without unsandboxed mode, it will break!!!
 
----
+## Installation
 
-# Installation
+Currently TurboWarp restricts URL-loaded extensions to sandboxed mode (for security reasons) so you need to download `JustEnoughInputs.js` and load it with unsandboxed mode.
 
-Currently Turbowarp restricts URL-load to sandboxed mode (for security purposes) so you need to download JustEnoughInputs.js and load in with unsandboxed mode (don't worry I tested the code)
+(Don't worry, I tested the code.)
 
-# Credits
+## Credits
 
-Created by **evil-fih** on Github (**darcknd** on Scratch)
+Created by evil-fih on GitHub  
+(darcknd on Scratch)
 
----
-
-# License
+## License
 
 This project is licensed under the MIT License.
 
-See `LICENSE` for details.
+See LICENSE for details.
 
 Thanks for using this extension!
