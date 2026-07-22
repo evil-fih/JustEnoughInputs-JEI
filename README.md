@@ -91,7 +91,7 @@ Because JEI listens directly to browser input events, it cannot run inside the n
 Example:
 
 ```
-https://evil-fih.github.io/JustEnoughInputs/just-enough-inputs.js
+https://evil-fih.github.io/JustEnoughInputs-JEI/JustEnoughInputs.js
 ```
 
 ---
@@ -170,19 +170,19 @@ Returns the amount the mouse wheel moved.
 
 ### `left mouse pressed?`
 
-Checks the left mouse button.
+Checks if the left mouse button is held.
 
 ---
 
 ### `middle mouse pressed?`
 
-Checks the middle mouse button.
+Checks if the middle mouse button is held.
 
 ---
 
 ### `right mouse pressed?`
 
-Checks the right mouse button.
+Checks if the right mouse button is held.
 
 ---
 
@@ -210,7 +210,7 @@ git clone https://github.com/yourusername/JustEnoughInputs.git
 Edit:
 
 ```
-just-enough-inputs.js
+JustEnoughInputs.js
 ```
 
 Reload the extension in TurboWarp to test changes.
@@ -218,7 +218,7 @@ Reload the extension in TurboWarp to test changes.
 
 # Credits
 
-Created by **darcknd**
+Created by **evil-fih**
 
 ---
 
