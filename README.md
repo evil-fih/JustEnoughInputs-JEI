@@ -50,7 +50,7 @@ Also because I was bored.
 
 JEI needs to be run **UNSANDBOXED!!**
 
-Unsandboxed mode allows the extension to listen to browser input events. So without unsandboxed mode, it will break!!!
+Unsandboxed mode allows the extension to listen to browser input events. Without unsandboxed mode it will break!!!
 
 ## Installation
 
