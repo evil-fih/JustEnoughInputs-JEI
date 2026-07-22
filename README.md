@@ -5,11 +5,9 @@ JustEnoughInputs is a Turbowarp extension that adds useful reporters for detecti
 
 # Features
 
-## Keyboard Input
+## Keyboard
 
-JEI provides access to keyboard inputs that Scratch normally cannot distinguish.
-
-### Modifier Keys
+### Modifier and Function Keys
 
 - Left Shift
 - Right Shift
@@ -19,8 +17,9 @@ JEI provides access to keyboard inputs that Scratch normally cannot distinguish.
 - Right Alt
 - Left Meta (Windows/Command key)
 - Right Meta
+- Function Keys (F1, F2, etc.)
 
-### Additional Keyboard Data
+### Misc. Keyboard Data
 
 - Detect currently pressed keys using keyboard codes
 - Get the last key pressed
@@ -28,197 +27,41 @@ JEI provides access to keyboard inputs that Scratch normally cannot distinguish.
 
 ---
 
-## Mouse Input
-
-JEI adds additional mouse controls.
+## Mouse
 
 ### Mouse Buttons
 
-Supports:
+JEI can detect Left, Right and Middle Mouse Button
 
-- Left mouse button
-- Middle mouse button
-- Right mouse button
+### Misc. Mouse Data
 
-### Mouse Data
-
-Includes:
-
-- Mouse movement delta (X/Y)
-- Mouse wheel movement
-- Last mouse button pressed
+Includes stuff like change in mouse movement, scroll wheel movement and last mouse button
 
 ---
 
-# Why JEI?
+# What is JEI used for and why did I suffer through a JS course to do this?
 
-Vanilla Scratch provides simple keyboard input, but advanced projects often need more information.
+Both Scratch and Turbowarp doesn't have any "special keys detection" block so I just made an extension for this.
 
-Examples:
+You can make stuff like custom keybinds for a game or a fully functional computer (NOT TESTED YET)
 
-- Games with custom controls
-- Rhythm games
-- First-person games
-- Keybind systems
-- Applications requiring precise input
-- Advanced UI systems
-
-JEI fills the gap between simple Scratch input and full JavaScript browser input.
+Also because I was bored.
 
 ---
 
 # Requirements
 
-JEI requires:
-
-- TurboWarp
-- Unsandboxed extensions enabled
-
-Because JEI listens directly to browser input events, it cannot run inside the normal Scratch sandbox.
+JEI needs to be run **UNSANDBOXED!!** Unsandboxed allows the extension to listen to browser stuff. Without unsandboxed mode the extension will break.
 
 ---
 
 # Installation
 
-## Using TurboWarp
-
-1. Open [TurboWarp](https://turbowarp.org/)
-2. Open the **Extensions** menu
-3. Select **Custom Extension**
-4. Enter the JEI extension URL
-5. Load the extension
-
-Example:
-
-```
-https://evil-fih.github.io/JustEnoughInputs-JEI/JustEnoughInputs.js
-```
-
----
-
-# Blocks
-
-## Keyboard Blocks
-
-### `[KEY] pressed?`
-
-Checks whether a specific keyboard key is currently held.
-
-Example:
-
-```
-ShiftLeft pressed?
-```
-
-Returns:
-
-```
-true / false
-```
-
----
-
-### `last key`
-
-Returns the last key pressed.
-
-Example:
-
-```
-A
-```
-
----
-
-### `last key code`
-
-Returns the physical keyboard code.
-
-Example:
-
-```
-KeyA
-```
-
-or:
-
-```
-ShiftLeft
-```
-
----
-
-## Mouse Blocks
-
-### `mouse dx`
-
-Returns the horizontal mouse movement since the previous check.
-
----
-
-### `mouse dy`
-
-Returns the vertical mouse movement since the previous check.
-
----
-
-### `mouse wheel delta`
-
-Returns the amount the mouse wheel moved.
-
----
-
-### `left mouse pressed?`
-
-Checks if the left mouse button is held.
-
----
-
-### `middle mouse pressed?`
-
-Checks if the middle mouse button is held.
-
----
-
-### `right mouse pressed?`
-
-Checks if the right mouse button is held.
-
----
-
-### `last mouse button`
-
-Returns the most recently pressed mouse button.
-
-Possible values:
-
-```
-Left
-Middle
-Right
-```
-
----
-# Development
-
-Clone the repository:
-
-```bash
-git clone https://github.com/yourusername/JustEnoughInputs.git
-```
-
-Edit:
-
-```
-JustEnoughInputs.js
-```
-
-Reload the extension in TurboWarp to test changes.
----
+Currently Turbowarp restricts URL-load to sandboxed mode (for security purposes) so you need to download JustEnoughInputs.js and load in with unsandboxed mode (don't worry I tested the code)
 
 # Credits
 
-Created by **evil-fih**
+Created by **evil-fih** on Github (**darcknd** on Scratch)
 
 ---
 
@@ -227,3 +70,5 @@ Created by **evil-fih**
 This project is licensed under the MIT License.
 
 See `LICENSE` for details.
+
+Thanks for using this extension!
